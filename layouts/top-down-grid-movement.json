@@ -1001,11 +1001,11 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"Space\""
+                "\"Left\""
               ]
             },
             {
@@ -1016,7 +1016,7 @@
                 "Bard4",
                 "\"spawn\"",
                 ">=",
-                "0.7"
+                "0.1"
               ]
             }
           ],
@@ -1028,8 +1028,8 @@
               "parameters": [
                 "",
                 "Bard6",
-                "Bard4.X()",
-                "Bard4.Y()+15",
+                "CursorX()",
+                "CursorY()",
                 ""
               ]
             },
@@ -1042,6 +1042,15 @@
                 "SnakeHead",
                 "Bard6",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Bard4",
+                "\"spawn\""
               ]
             }
           ]
@@ -1074,7 +1083,17 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "Bard4",
+            "TopDownMovement"
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
