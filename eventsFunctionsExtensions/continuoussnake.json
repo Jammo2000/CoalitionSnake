@@ -6,7 +6,7 @@
   "gdevelopVersion": "",
   "helpPath": "",
   "iconUrl": "",
-  "name": "DiscreteSnake",
+  "name": "ContinuousSnake",
   "previewIconUrl": "",
   "shortDescription": "",
   "version": "",
@@ -58,7 +58,7 @@
             {
               "description": "Behavior",
               "name": "Behavior",
-              "supplementaryInformation": "DiscreteSnake::SnakeSegment",
+              "supplementaryInformation": "ContinuousSnake::SnakeSegment",
               "type": "behavior"
             }
           ],
@@ -166,7 +166,7 @@
             {
               "description": "Behavior",
               "name": "Behavior",
-              "supplementaryInformation": "DiscreteSnake::SnakeSegment",
+              "supplementaryInformation": "ContinuousSnake::SnakeSegment",
               "type": "behavior"
             }
           ],
@@ -225,7 +225,7 @@
             {
               "description": "Behavior",
               "name": "Behavior",
-              "supplementaryInformation": "DiscreteSnake::SnakeSegment",
+              "supplementaryInformation": "ContinuousSnake::SnakeSegment",
               "type": "behavior"
             }
           ],
@@ -352,7 +352,7 @@
             {
               "description": "Behavior",
               "name": "Behavior",
-              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
               "type": "behavior"
             }
           ],
@@ -394,7 +394,7 @@
             {
               "description": "Behavior",
               "name": "Behavior",
-              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
               "type": "behavior"
             }
           ],
@@ -432,7 +432,7 @@
             {
               "description": "Behavior",
               "name": "Behavior",
-              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
               "type": "behavior"
             },
             {
@@ -475,7 +475,7 @@
             {
               "description": "Behavior",
               "name": "Behavior",
-              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
               "type": "behavior"
             }
           ],

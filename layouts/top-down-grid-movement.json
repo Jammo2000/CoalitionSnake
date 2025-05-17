@@ -218,7 +218,7 @@
         },
         {
           "name": "SnakeHead",
-          "type": "DiscreteSnake::SnakeHead",
+          "type": "ContinuousSnake::SnakeHead",
           "Spacing": 15,
           "Property": ""
         },
@@ -523,7 +523,7 @@
       "behaviors": [
         {
           "name": "SnakeSegment",
-          "type": "DiscreteSnake::SnakeSegment",
+          "type": "ContinuousSnake::SnakeSegment",
           "Spacing": 10,
           "SegmentIndex": 0,
           "LastPositionX": 2.0247e-320,
@@ -1035,7 +1035,7 @@
             },
             {
               "type": {
-                "value": "DiscreteSnake::SnakeHead::AddSegment"
+                "value": "ContinuousSnake::SnakeHead::AddSegment"
               },
               "parameters": [
                 "Bard4",
@@ -1078,7 +1078,7 @@
       "actions": [
         {
           "type": {
-            "value": "DiscreteSnake::SnakeHead::UpdateSegments"
+            "value": "ContinuousSnake::SnakeHead::UpdateSegments"
           },
           "parameters": [
             "Bard4",
@@ -1150,11 +1150,11 @@
     },
     {
       "name": "SnakeHead",
-      "type": "DiscreteSnake::SnakeHead"
+      "type": "ContinuousSnake::SnakeHead"
     },
     {
       "name": "SnakeSegment",
-      "type": "DiscreteSnake::SnakeSegment"
+      "type": "ContinuousSnake::SnakeSegment"
     },
     {
       "name": "TopDownMovement",
