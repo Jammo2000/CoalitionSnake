@@ -1,0 +1,501 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DiscreteSnake",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Make this a segment of a snake",
+      "fullName": "Snake Segment",
+      "name": "SnakeSegment",
+      "objectType": "Sprite",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Expression",
+          "name": "Index",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "SegmentIndex"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "DiscreteSnake::SnakeSegment",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "!=",
+                        "LastPositionX"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CenterY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "!=",
+                        "LastPositionY"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Object",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BehaviorActivated"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "SegmentIndex",
+                    "=",
+                    "Object.Behavior::Index() - 1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "LastPositionX"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "LastPositionY"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "DiscreteSnake::SnakeSegment",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LastPositionX",
+                    "=",
+                    "Object.CenterX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LastPositionY",
+                    "=",
+                    "Object.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "SegmentIndex",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "DiscreteSnake::SnakeSegment",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "10",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Spacing",
+          "description": "The space between snake segments",
+          "group": "",
+          "extraInformation": [],
+          "name": "Spacing"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "Dimensionless",
+          "label": "",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "advanced": true,
+          "name": "SegmentIndex"
+        },
+        {
+          "value": "",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "LastPositionX"
+        },
+        {
+          "value": "",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "LastPositionY"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    },
+    {
+      "description": "",
+      "fullName": "",
+      "name": "SnakeHead",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "fullName": "Move the segments",
+          "functionType": "Action",
+          "name": "UpdateSegments",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const behavior = object.getBehavior(behaviorName);",
+                "let { segments, positionHistory } = behavior._snake;",
+                "const spacing = behavior._getSpacing();",
+                "let prevX = object.getCenterYInScene();",
+                "let prevY = object.getCenterYInScene();",
+                "let posIdx = positionHistory.length - 1;",
+                "for (let i = 0; i < segments.length; i++) {",
+                "    /** @type {gdjs.SpriteRuntimeObject} */",
+                "    const segment = segments[i];",
+                "    while (posIdx >= 0) {",
+                "        const p = positionHistory[posIdx];",
+                "        if (Math.hypot(p.x - prevX, p.y - prevY) >= spacing) {",
+                "            segment.setCenterPositionInScene(p.x, p.y)",
+                "            prevX = p.x;",
+                "            prevY = p.y;",
+                "            break;",
+                "        }",
+                "        posIdx--;",
+                "    }",
+                "    if (posIdx < 0) {",
+                "        segment.putAroundObject(",
+                "            segments[i - 1] || object,",
+                "            spacing,",
+                "            Math.atan2(",
+                "                prevY - segment.getCenterXInScene(),",
+                "                prevX - segment.getCenterYInScene()",
+                "            )",
+                "        )",
+                "        prevX = segment.getCenterXInScene();",
+                "        prevY = segment.getCenterYInScene();",
+                "    }",
+                "}",
+                "if(posIdx>0){",
+                "    behavior._snake.positionHistory = positionHistory.slice(posIdx);",
+                "    console.log(\"Slicing:\", posIdx, \"To:\",behavior._snake.positionHistory.length);",
+                "}"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const behavior = object.getBehavior(behaviorName);",
+                "behavior._snake = behavior._snake || {",
+                "    positionHistory: [],",
+                "    segments: [],",
+                "};"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Add an object to the snake",
+          "fullName": "Add Segment",
+          "functionType": "Action",
+          "name": "AddSegment",
+          "sentence": "add _PARAM2_ to the snake with head _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const data = object.getBehavior(behaviorName)._snake;",
+                "const segs = eventsFunctionContext.getObjects(\"Segment\");",
+                "for(let segment of segs){",
+                "    data.segments.push(segment);",
+                "}"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "type": "behavior"
+            },
+            {
+              "description": "",
+              "name": "Segment",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const data = object.getBehavior(behaviorName)._snake;",
+                "const lastPos = data.positionHistory[data.positionHistory.length];",
+                "const pos = {x:object.getCenterXInScene(), y:object.getCenterYInScene()};",
+                "if(!lastPos || lastPos.x !== pos.x || lastPos.y !== pos.y){",
+                "    data.positionHistory.push(pos);",
+                "}"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "DiscreteSnake::SnakeHead",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "spacing between segments",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "name": "Spacing"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}
