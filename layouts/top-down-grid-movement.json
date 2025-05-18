@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.249999523433706,
+    "zoomFactor": 1.52520490384335,
     "windowMask": false
   },
   "objectsGroups": [
@@ -70,147 +70,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
+      "keepRatio": true,
       "layer": "",
-      "name": "Stone",
-      "persistentUuid": "235a30c8-7757-4451-9e7d-0d4255de6b9a",
+      "name": "Wall",
+      "persistentUuid": "40ee3b0c-1ae0-4d3b-9863-3464622449f8",
       "width": 0,
-      "x": 112,
-      "y": 16,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stone",
-      "persistentUuid": "26f77e17-70bb-4162-8e4d-9f1c3f731f76",
-      "width": 0,
-      "x": 96,
-      "y": 144,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stone",
-      "persistentUuid": "4f6c29e1-f293-4786-aabb-85648a65480d",
-      "width": 0,
-      "x": 16,
-      "y": 80,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stone",
-      "persistentUuid": "0dff652d-47c5-4f6c-ad63-01020a10bc99",
-      "width": 0,
-      "x": 176,
-      "y": 80,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stone",
-      "persistentUuid": "47d479ca-5b9c-466b-b751-abc4a28c4a8b",
-      "width": 0,
-      "x": 48,
-      "y": 32,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stone",
-      "persistentUuid": "10549505-3ee0-45a3-b31d-caaa525f9a48",
-      "width": 0,
-      "x": 144,
-      "y": 32,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stone",
-      "persistentUuid": "1023e9b5-6ac1-47a8-939b-5bf955dd00ea",
-      "width": 0,
-      "x": 144,
-      "y": 128,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stone",
-      "persistentUuid": "8b9d4921-ca5a-46ea-973f-0df180d2b8f9",
-      "width": 0,
-      "x": 48,
-      "y": 128,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Bard6",
-      "persistentUuid": "c0b8d2da-4ddd-4878-8286-b844005b89be",
-      "width": 0,
-      "x": 64,
-      "y": 48,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Bard6",
-      "persistentUuid": "bd906f14-5abb-4cb6-9285-e8874daf8ba7",
-      "width": 0,
-      "x": 144,
-      "y": 80,
+      "x": 272,
+      "y": -80,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -220,13 +86,238 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
+      "keepRatio": true,
       "layer": "",
-      "name": "Bard6",
-      "persistentUuid": "5509bd4e-22c9-471b-baf9-06ab7891c6d4",
+      "name": "Wall",
+      "persistentUuid": "7bf2ecdd-f64c-49a0-8a44-70f843332220",
       "width": 0,
-      "x": 80,
-      "y": 112,
+      "x": 272,
+      "y": 48,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "3e66d1f6-d525-45b2-bf71-f99cb2ab7e4c",
+      "width": 0,
+      "x": 272,
+      "y": 176,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "9217173e-3e75-49db-87e1-5563545a6401",
+      "width": 0,
+      "x": 144,
+      "y": 224,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "3f4a973a-43c5-4a1e-8e33-80bbada20688",
+      "width": 0,
+      "x": 16,
+      "y": 224,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "52d6477a-2dba-460a-9535-4661066d31f5",
+      "width": 0,
+      "x": -112,
+      "y": 224,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "9cc2f433-c4a0-459a-a402-6160d8a20ec4",
+      "width": 0,
+      "x": -192,
+      "y": 112,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "755774a1-89ed-439d-9649-fda760c84506",
+      "width": 0,
+      "x": -192,
+      "y": -16,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "64f3e98b-6a6a-48d4-a0ee-1d7b11cb4566",
+      "width": 0,
+      "x": -192,
+      "y": -144,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "b709cb16-df6e-465f-8a7c-4169994a1f1d",
+      "width": 0,
+      "x": -64,
+      "y": -192,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "0b095b1b-fdb2-4bb7-947c-42ef334146ab",
+      "width": 0,
+      "x": 64,
+      "y": -192,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "3ddd34a5-f482-409c-956e-fa3a48f481bb",
+      "width": 0,
+      "x": 192,
+      "y": -192,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "426c440a-222b-4b02-b32e-8f5671df71b7",
+      "width": 0,
+      "x": -192,
+      "y": -192,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "4d97ae28-8052-48d2-b5a9-6da03dee3857",
+      "width": 0,
+      "x": 272,
+      "y": -192,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "34034776-5997-4002-9c78-fc38a65979e5",
+      "width": 0,
+      "x": 272,
+      "y": 224,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "bfb7e25c-a63d-4824-bdf2-c22c5e1b2d00",
+      "width": 0,
+      "x": -192,
+      "y": 224,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -239,7 +330,18 @@
       "name": "Bard4",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "segmentX",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "segmentY",
+          "type": "array",
+          "children": []
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -248,33 +350,32 @@
           "TopDownMovement": "TopDownMovement",
           "PixelSize": 16,
           "OffsetX": 0,
-          "OffsetY": 0,
-          "TargetX": 0
+          "OffsetY": 0
+        },
+        {
+          "name": "SnakeHead",
+          "type": "ContinuousSnake::SnakeHead",
+          "Spacing": 15,
+          "Property": ""
         },
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "allowDiagonals": false,
-          "maxSpeed": 100,
-          "rotateObject": false,
           "acceleration": 400,
+          "allowDiagonals": false,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
           "deceleration": 800,
           "ignoreDefaultControls": false,
+          "maxSpeed": 200,
           "movementAngleOffset": 0,
+          "rotateObject": false,
           "viewpoint": "TopDown"
         },
         {
-          "name": "TopDownMovementAnimator",
-          "type": "TopDownMovementAnimator::TopDownMovementAnimator",
-          "TopDownMovement": "TopDownMovement",
-          "IsScalingAnimation": true,
-          "AnimationName": "Walk",
-          "DirectionCount": 4,
-          "AngleOffset": 0,
-          "AnimationDirection": 0
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         },
         {
           "name": "YSort",
@@ -557,45 +658,12 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 16,
-          "OffsetX": 0,
-          "OffsetY": 0,
-          "TargetX": 0,
-          "TargetY": 0,
-          "TargetDirectionX": 0,
-          "TargetDirectionY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 50,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 50,
-          "ignoreDefaultControls": true,
-          "maxSpeed": 25,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
-        },
-        {
-          "name": "TopDownMovementAnimator",
-          "type": "TopDownMovementAnimator::TopDownMovementAnimator",
-          "TopDownMovement": "TopDownMovement",
-          "IsScalingAnimation": true,
-          "AnimationName": "Walk",
-          "DirectionCount": 4,
-          "AngleOffset": 0,
-          "AnimationDirection": 0
-        },
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
+          "name": "SnakeSegment",
+          "type": "ContinuousSnake::SnakeSegment",
+          "Spacing": 10,
+          "SegmentIndex": 0,
+          "LastPositionX": 2.0247e-320,
+          "LastPositionY": 2.0247e-320
         }
       ],
       "animations": [
@@ -917,6 +985,301 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Bard7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SnakeSegment",
+          "type": "ContinuousSnake::SnakeSegment",
+          "Spacing": 10,
+          "SegmentIndex": 0,
+          "LastPositionX": 2.0247e-320,
+          "LastPositionY": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "Walk0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16670000553131104,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Right_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16670000553131104,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16670000553131104,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Left_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Left_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Left_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16670000553131104,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Up_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Up_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Bard 6_Up_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "Wall",
+      "texture": "assets\\Grass.png3",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -926,10 +1289,19 @@
         "objectName": "Bard4"
       },
       {
+        "objectName": "NewTiledSprite"
+      },
+      {
         "objectName": "Grass"
       },
       {
+        "objectName": "Wall"
+      },
+      {
         "objectName": "Bard6"
+      },
+      {
+        "objectName": "Bard7"
       },
       {
         "objectName": "Stone"
@@ -968,8 +1340,8 @@
           },
           "parameters": [
             "",
-            "4",
-            "\"\"",
+            "2",
+            "",
             ""
           ]
         },
@@ -991,6 +1363,39 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Bard4",
+            "\"spawn\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "98",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "80",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1003,7 +1408,7 @@
           },
           "parameters": [
             "Character",
-            "Stone",
+            "Wall",
             "",
             "",
             "yes"
@@ -1017,7 +1422,7 @@
           },
           "parameters": [
             "Character",
-            "Stone",
+            "Wall",
             ""
           ]
         }
@@ -1026,20 +1431,7 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Bard4",
-            "no",
-            "\"\"",
-            "0"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
@@ -1052,254 +1444,219 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::XVelocity"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
-                "Bard6",
-                "TopDownMovement",
-                "=",
-                "0"
+                "",
+                "\"Left\""
               ]
             },
             {
               "type": {
-                "value": "TopDownMovementBehavior::YVelocity"
+                "value": "CompareObjectTimer"
               },
               "parameters": [
-                "Bard6",
-                "TopDownMovement",
-                "=",
-                "0"
+                "Bard4",
+                "\"spawn\"",
+                ">=",
+                "0.1"
               ]
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
+              "type": {
+                "value": "Create"
               },
-              "comment": "Wait a bit."
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Bard6",
-                    "\"Wait\"",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Bard6",
-                    "\"Wait\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Bard6",
-                    "WaitDuration",
-                    "=",
-                    "RandomFloatInRange(1.5, 2.5)"
-                  ]
-                }
+              "parameters": [
+                "",
+                "Bard6",
+                "CursorX()",
+                "CursorY()",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
+              "type": {
+                "value": "ContinuousSnake::SnakeHead::AddSegment"
               },
-              "comment": "Choose a random direction."
+              "parameters": [
+                "Bard4",
+                "SnakeHead",
+                "Bard6",
+                ""
+              ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Bard6",
-                    "\"Wait\"",
-                    ">",
-                    "Bard6.Variable(WaitDuration)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Direction",
-                    "=",
-                    "RandomInRange(0,3)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "RemoveObjectTimer"
-                  },
-                  "parameters": [
-                    "Bard6",
-                    "\"Wait\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "The pixel-perfect behavior forces the characters to move to the next cell.\nThere is only to give them an impulse in the right direction."
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Direction",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Bard6",
-                        "TopDownMovement"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Direction",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Bard6",
-                        "TopDownMovement"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Direction",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateUpKey"
-                      },
-                      "parameters": [
-                        "Bard6",
-                        "TopDownMovement"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "Direction",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::SimulateDownKey"
-                      },
-                      "parameters": [
-                        "Bard6",
-                        "TopDownMovement"
-                      ]
-                    }
-                  ]
-                }
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Bard4",
+                "\"spawn\""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bard4",
+                "Bard7",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Bard4",
+                "\"spawn\"",
+                ">=",
+                "0.1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Bard6",
+                "-100",
+                "-100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ContinuousSnake::SnakeHead::AddSegment"
+              },
+              "parameters": [
+                "Bard4",
+                "SnakeHead",
+                "Bard6",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Bard4",
+                "\"spawn\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bard7",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Bard7",
+                "RandomWithStep(-64, 256, 16)",
+                "RandomWithStep(-64, 208, 16)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "The pixel-perfect behavior forces the characters to move to the next cell.\nThere is only to give them an impulse in the right direction."
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Update Snake",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ContinuousSnake::SnakeHead::UpdateSegments"
+          },
+          "parameters": [
+            "Bard4",
+            "SnakeHead",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Bard7",
+            "224",
+            "-16",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1334,18 +1691,48 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
       "name": "PixelPerfectTopDownMovement",
       "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SnakeHead",
+      "type": "ContinuousSnake::SnakeHead"
+    },
+    {
+      "name": "SnakeSegment",
+      "type": "ContinuousSnake::SnakeSegment"
     },
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     },
     {
-      "name": "TopDownMovementAnimator",
-      "type": "TopDownMovementAnimator::TopDownMovementAnimator",
-      "NewAnimationDirection": 0,
-      "AnimationFrame": 0
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     },
     {
       "name": "YSort",
