@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.52520490384335,
+    "zoomFactor": 1.1697787620661706,
     "windowMask": false
   },
   "objectsGroups": [
@@ -656,16 +656,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "SnakeSegment",
-          "type": "ContinuousSnake::SnakeSegment",
-          "Spacing": 10,
-          "SegmentIndex": 0,
-          "LastPositionX": 2.0247e-320,
-          "LastPositionY": 2.0247e-320
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "SolidGreenCircle",
@@ -1551,16 +1542,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "SnakeSegment",
-          "type": "ContinuousSnake::SnakeSegment",
-          "Spacing": 10,
-          "SegmentIndex": 0,
-          "LastPositionX": 2.0247e-320,
-          "LastPositionY": 2.0247e-320
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "Walk0",
