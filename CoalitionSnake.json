@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 228,
+    "build": 231,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -314,7 +314,7 @@
       {
         "file": "assets/Bard 6_Right_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bard 6_Right_1.png\",\"extension\":\".png\"}",
         "name": "Bard 6_Right_1.png",
         "smoothed": false,
         "userAdded": false,
@@ -420,6 +420,230 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\Grass.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GreenStripeCircle4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/GreenStripeCircle4.png\",\"extension\":\".png\"}",
+        "name": "assets\\GreenStripeCircle4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RedStripeSquare.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/RedStripeSquare.png\",\"extension\":\".png\"}",
+        "name": "assets\\RedStripeSquare.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RedEmptySquare.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/RedEmptySquare.png\",\"extension\":\".png\"}",
+        "name": "assets\\RedEmptySquare.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bard 6_Up_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bard 6_Up_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\Bard 6_Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BlueSolidStar.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/BlueSolidStar.png\",\"extension\":\".png\"}",
+        "name": "assets\\BlueSolidStar.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BlueSripeStar.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/BlueSripeStar.png\",\"extension\":\".png\"}",
+        "name": "assets\\BlueSripeStar.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BlueEmptyStar.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/BlueEmptyStar.png\",\"extension\":\".png\"}",
+        "name": "assets\\BlueEmptyStar.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bard 6_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bard 6_Left_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite2.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ShadedRedCircle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ShadedRedCircle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/EmptyRedCircle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EmptyRedCircle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SolidBlueCircle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SolidBlueCircle.png\"}",
+        "name": "SolidBlueCircle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ShadedBlueCircle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ShadedBlueCircle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/EmptyBlueCircle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EmptyBlueCircle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SolidGreenSquare.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SolidGreenSquare.png\"}",
+        "name": "SolidGreenSquare",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ShadedGreenSquare.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ShadedGreenSquare.png\"}",
+        "name": "ShadedGreenSquare",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/EmptyGreenSquare.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EmptyGreenSquare",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SolidBlueSquare.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SolidBlueSquare.png\"}",
+        "name": "SolidBlueSquare",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ShadedBlueSquare.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ShadedBlueSquare",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/EmptyBlueSquare.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EmptyBlueSquare",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SolidGreenStar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SolidGreenStar.png\"}",
+        "name": "SolidGreenStar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ShadedGreenStar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ShadedGreenStar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/EmptyGreenStar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EmptyGreenStar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SolidRedStar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SolidRedStar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ShadedRedStar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ShadedRedStar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/EmptyRedStar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/EmptyRedStar.png\"}",
+        "name": "EmptyRedStar",
         "smoothed": false,
         "userAdded": false
       }
