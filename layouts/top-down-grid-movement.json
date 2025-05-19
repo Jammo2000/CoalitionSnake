@@ -1535,134 +1535,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Bard7",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Walk0",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.16670000553131104,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Bard 6_Right_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walk1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.16670000553131104,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\GreenStripeCircle4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walk2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.16670000553131104,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Bard 6_Left_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walk3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.16670000553131104,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Bard 6_Up_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
@@ -1702,9 +1574,6 @@
       },
       {
         "objectName": "Stone"
-      },
-      {
-        "objectName": "Bard7"
       },
       {
         "objectName": "AllShapesAndColors"
@@ -1765,15 +1634,6 @@
           },
           "parameters": [
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Bard4",
-            "\"spawn\""
           ]
         },
         {
@@ -1855,38 +1715,29 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "Distance"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "Bard4",
+                "AllShapesAndColors",
+                "5",
+                ""
               ]
             },
             {
               "type": {
-                "value": "CompareObjectTimer"
+                "inverted": true,
+                "value": "ContinuousSnake::SnakeHead::SnakeContainsSegment"
               },
               "parameters": [
                 "Bard4",
-                "\"spawn\"",
-                ">=",
-                "0.1"
+                "SnakeHead",
+                "AllShapesAndColors",
+                ""
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "AllShapesAndColors",
-                "CursorX()",
-                "CursorY()",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "ContinuousSnake::SnakeHead::AddSegment"
@@ -1900,94 +1751,25 @@
             },
             {
               "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Bard4",
-                "\"spawn\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Bard4",
-                "Bard7",
-                "",
-                "",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Bard4",
-                "\"spawn\"",
-                ">=",
-                "0.1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
                 "value": "Create"
               },
               "parameters": [
                 "",
                 "AllShapesAndColors",
-                "-100",
-                "-100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ContinuousSnake::SnakeHead::AddSegment"
-              },
-              "parameters": [
-                "Bard4",
-                "SnakeHead",
-                "AllShapesAndColors",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Bard4",
-                "\"spawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Bard7",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Bard7",
                 "RandomWithStep(-64, 256, 16)",
                 "RandomWithStep(-64, 208, 16)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "AllShapesAndColors",
+                "Animation",
+                "=",
+                "RandomInRange(0, 26)"
               ]
             }
           ]
@@ -2053,10 +1835,21 @@
           },
           "parameters": [
             "",
-            "Bard7",
+            "AllShapesAndColors",
             "224",
             "-16",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "AllShapesAndColors",
+            "Animation",
+            "=",
+            "RandomInRange(0, 26)"
           ]
         }
       ]
