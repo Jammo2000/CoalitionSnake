@@ -235,6 +235,49 @@
             }
           ],
           "objectGroups": []
+        },
+        {
+          "description": "Check if the given object is in this snake.",
+          "fullName": "Snake Contains Segment",
+          "functionType": "Condition",
+          "name": "SnakeContainsSegment",
+          "sentence": "check if _PARAM2_ is in the snake attached to _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const behavior = object.getBehavior(behaviorName);",
+                "",
+                "let { segments } = behavior._snake;",
+                "const segment = eventsFunctionContext.getObjects(\"Segment\");",
+                "eventsFunctionContext.returnValue = segments.includes(segment);"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
+              "type": "behavior"
+            },
+            {
+              "description": "",
+              "name": "Segment",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
         }
       ],
       "propertyDescriptors": [
