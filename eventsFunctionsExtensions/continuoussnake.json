@@ -176,6 +176,22 @@
               "parameterObjects": "Object",
               "useStrict": true,
               "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ContinuousSnake::SnakeHead::UpdateSegments"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": [
@@ -251,7 +267,7 @@
                 "const behavior = object.getBehavior(behaviorName);",
                 "",
                 "let { segments } = behavior._snake;",
-                "const segment = eventsFunctionContext.getObjects(\"Segment\");",
+                "const segment = eventsFunctionContext.getObjects(\"Segment\")[0];",
                 "eventsFunctionContext.returnValue = segments.includes(segment);"
               ],
               "parameterObjects": "Object",
