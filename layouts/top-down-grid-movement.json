@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1697787620661706,
+    "zoomFactor": 1.1316201568516826,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1549,7 +1549,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "Wall",
-      "texture": "assets\\Grass.png3",
+      "texture": "assets\\Stone.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -1757,13 +1757,12 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                    "value": "ObjectPickingTools::UnpickAction"
                   },
                   "parameters": [
+                    "",
                     "AllShapesAndColors",
-                    "Animation",
-                    "=",
-                    "RandomInRange(0, 26)"
+                    ""
                   ]
                 },
                 {
@@ -1777,13 +1776,19 @@
                     "RandomWithStep(-64, 208, 16)",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "AllShapesAndColors",
+                    "Animation",
+                    "=",
+                    "RandomInRange(0, 26)"
+                  ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         },
@@ -1930,10 +1935,6 @@
     {
       "name": "SnakeHead",
       "type": "ContinuousSnake::SnakeHead"
-    },
-    {
-      "name": "SnakeSegment",
-      "type": "ContinuousSnake::SnakeSegment"
     },
     {
       "name": "TopDownMovement",
