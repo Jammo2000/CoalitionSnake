@@ -1720,57 +1720,70 @@
               "parameters": [
                 "Bard4",
                 "AllShapesAndColors",
-                "5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "ContinuousSnake::SnakeHead::SnakeContainsSegment"
-              },
-              "parameters": [
-                "Bard4",
-                "SnakeHead",
-                "AllShapesAndColors",
+                "10",
                 ""
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ContinuousSnake::SnakeHead::AddSegment"
-              },
-              "parameters": [
-                "Bard4",
-                "SnakeHead",
-                "AllShapesAndColors",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ContinuousSnake::SnakeHead::SnakeContainsSegment"
+                  },
+                  "parameters": [
+                    "Bard4",
+                    "SnakeHead",
+                    "AllShapesAndColors",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ContinuousSnake::SnakeHead::AddSegment"
+                  },
+                  "parameters": [
+                    "Bard4",
+                    "SnakeHead",
+                    "AllShapesAndColors",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "AllShapesAndColors",
+                    "Animation",
+                    "=",
+                    "RandomInRange(0, 26)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "AllShapesAndColors",
+                    "RandomWithStep(-64, 256, 16)",
+                    "RandomWithStep(-64, 208, 16)",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "AllShapesAndColors",
-                "RandomWithStep(-64, 256, 16)",
-                "RandomWithStep(-64, 208, 16)",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "AllShapesAndColors",
-                "Animation",
-                "=",
-                "RandomInRange(0, 26)"
-              ]
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
