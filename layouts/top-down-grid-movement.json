@@ -2462,10 +2462,13 @@
                 },
                 {
                   "type": {
-                    "value": "Montre"
+                    "value": "Create"
                   },
                   "parameters": [
+                    "",
                     "NewText",
+                    "4",
+                    "48",
                     ""
                   ]
                 }
