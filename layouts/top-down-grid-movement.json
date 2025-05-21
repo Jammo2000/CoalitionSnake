@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.9237542666478606,
+    "zoomFactor": 1.3807626164344717,
     "windowMask": false
   },
   "objectsGroups": [
@@ -332,7 +332,7 @@
       "name": "NewText",
       "persistentUuid": "2f4f8394-e286-4373-9a3f-326c8c54aa86",
       "width": 236,
-      "x": 4,
+      "x": -12,
       "y": 48,
       "zOrder": 27,
       "numberProperties": [],
@@ -2219,7 +2219,7 @@
       "behaviors": [],
       "string": "You Lose ",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -2242,7 +2242,7 @@
         "underlined": false,
         "text": "You Lose ",
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 30,
         "color": "0;0;0"
