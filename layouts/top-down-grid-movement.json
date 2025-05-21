@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1316201568516826,
+    "zoomFactor": 1.9237542666478606,
     "windowMask": false
   },
   "objectsGroups": [
@@ -321,6 +321,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "2f4f8394-e286-4373-9a3f-326c8c54aa86",
+      "width": 236,
+      "x": 4,
+      "y": 48,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -392,7 +409,7 @@
               "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Right_1.png",
                   "points": [],
                   "originPoint": {
@@ -406,10 +423,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Right_2.png",
                   "points": [],
                   "originPoint": {
@@ -423,10 +459,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Right_3.png",
                   "points": [],
                   "originPoint": {
@@ -440,7 +495,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -455,7 +529,7 @@
               "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Down_1.png",
                   "points": [],
                   "originPoint": {
@@ -469,10 +543,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Down_2.png",
                   "points": [],
                   "originPoint": {
@@ -486,10 +579,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Down_3.png",
                   "points": [],
                   "originPoint": {
@@ -503,7 +615,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -518,7 +649,7 @@
               "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Left_1.png",
                   "points": [],
                   "originPoint": {
@@ -532,10 +663,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Left_2.png",
                   "points": [],
                   "originPoint": {
@@ -549,10 +699,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Left_3.png",
                   "points": [],
                   "originPoint": {
@@ -566,7 +735,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -581,7 +769,7 @@
               "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Up_1.png",
                   "points": [],
                   "originPoint": {
@@ -595,10 +783,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Up_2.png",
                   "points": [],
                   "originPoint": {
@@ -612,10 +819,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 4_Up_3.png",
                   "points": [],
                   "originPoint": {
@@ -629,7 +855,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -668,7 +913,7 @@
               "timeBetweenFrames": 0.16670000553131104,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bard 6_Right_1.png",
                   "points": [],
                   "originPoint": {
@@ -682,7 +927,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -698,7 +958,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\GreenStripeCircle4.png",
                   "points": [],
                   "originPoint": {
@@ -712,7 +972,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -727,7 +1002,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bard 6_Left_1.png",
                   "points": [],
                   "originPoint": {
@@ -741,7 +1016,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -757,7 +1047,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\NewSprite2.png",
                   "points": [],
                   "originPoint": {
@@ -771,7 +1061,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -787,7 +1092,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ShadedRedCircle",
                   "points": [],
                   "originPoint": {
@@ -801,7 +1106,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -817,7 +1137,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "EmptyRedCircle",
                   "points": [],
                   "originPoint": {
@@ -831,7 +1151,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -847,7 +1182,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "SolidBlueCircle",
                   "points": [],
                   "originPoint": {
@@ -861,7 +1196,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -877,7 +1227,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ShadedBlueCircle",
                   "points": [],
                   "originPoint": {
@@ -891,7 +1241,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -907,7 +1272,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "EmptyBlueCircle",
                   "points": [],
                   "originPoint": {
@@ -921,7 +1286,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -937,7 +1317,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "SolidGreenSquare",
                   "points": [],
                   "originPoint": {
@@ -951,7 +1331,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -967,7 +1362,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ShadedGreenSquare",
                   "points": [],
                   "originPoint": {
@@ -981,7 +1376,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -997,7 +1407,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "EmptyGreenSquare",
                   "points": [],
                   "originPoint": {
@@ -1011,7 +1421,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1027,7 +1452,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bard 6_Up_1.png",
                   "points": [],
                   "originPoint": {
@@ -1041,7 +1466,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1057,7 +1497,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\RedStripeSquare.png",
                   "points": [],
                   "originPoint": {
@@ -1071,7 +1511,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1087,7 +1542,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\RedEmptySquare.png",
                   "points": [],
                   "originPoint": {
@@ -1101,7 +1556,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1117,7 +1587,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "SolidBlueSquare",
                   "points": [],
                   "originPoint": {
@@ -1131,7 +1601,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1147,7 +1632,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ShadedBlueSquare",
                   "points": [],
                   "originPoint": {
@@ -1161,7 +1646,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1177,7 +1677,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "EmptyBlueSquare",
                   "points": [],
                   "originPoint": {
@@ -1191,7 +1691,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1207,7 +1722,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "SolidGreenStar",
                   "points": [],
                   "originPoint": {
@@ -1221,7 +1736,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1237,7 +1767,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ShadedGreenStar",
                   "points": [],
                   "originPoint": {
@@ -1251,7 +1781,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1267,7 +1812,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "EmptyGreenStar",
                   "points": [],
                   "originPoint": {
@@ -1281,7 +1826,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1297,7 +1857,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "SolidRedStar",
                   "points": [],
                   "originPoint": {
@@ -1311,7 +1871,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1327,7 +1902,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ShadedRedStar",
                   "points": [],
                   "originPoint": {
@@ -1341,7 +1916,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1357,7 +1947,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "EmptyRedStar",
                   "points": [],
                   "originPoint": {
@@ -1371,7 +1961,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1387,7 +1992,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\BlueSolidStar.png",
                   "points": [],
                   "originPoint": {
@@ -1401,7 +2006,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1417,7 +2037,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\BlueSripeStar.png",
                   "points": [],
                   "originPoint": {
@@ -1431,7 +2051,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1447,7 +2082,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\BlueEmptyStar.png",
                   "points": [],
                   "originPoint": {
@@ -1461,7 +2096,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1555,6 +2205,48 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You Lose ",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 5,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You Lose ",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1568,6 +2260,9 @@
       },
       {
         "objectName": "Grass"
+      },
+      {
+        "objectName": "NewText"
       },
       {
         "objectName": "Wall"
@@ -1659,6 +2354,14 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewText"
+          ]
         }
       ]
     },
@@ -1707,8 +2410,68 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bard4",
+                "AllShapesAndColors",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ContinuousSnake::SnakeHead::SnakeContainsSegment"
+                  },
+                  "parameters": [
+                    "Bard4",
+                    "SnakeHead",
+                    "AllShapesAndColors",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bard4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "AllShapesAndColors",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "NewText",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1791,6 +2554,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -1935,6 +2703,10 @@
     {
       "name": "SnakeHead",
       "type": "ContinuousSnake::SnakeHead"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
