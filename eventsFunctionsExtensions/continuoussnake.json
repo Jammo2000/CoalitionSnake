@@ -294,6 +294,94 @@
             }
           ],
           "objectGroups": []
+        },
+        {
+          "description": "The length of the snake",
+          "fullName": "Length",
+          "functionType": "Expression",
+          "name": "Length",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const data = object.getBehavior(behaviorName)._snake;",
+                "",
+                "eventsFunctionContext.returnValue = data.segments.length;"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "Remove a Segment",
+          "functionType": "Action",
+          "name": "RemoveSegment",
+          "sentence": "remove _PARAM2_ from the snake with head _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const data = object.getBehavior(behaviorName)._snake;",
+                "",
+                "const toRemove = eventsFunctionContext.getObjects(\"Segment\");",
+                "for(let seg of toRemove){",
+                "    const index = data.segments.indexOf(seg);",
+                "    if(index >= 0){",
+                "        data.segments.splice(index, 1);",
+                "    }",
+                "}",
+                "",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
+              "type": "behavior"
+            },
+            {
+              "description": "",
+              "name": "Segment",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
         }
       ],
       "propertyDescriptors": [
