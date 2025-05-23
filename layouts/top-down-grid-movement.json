@@ -406,11 +406,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Right_1.png",
+                  "image": "Walk07",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -446,403 +447,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Right_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Right_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walk1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.0833,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Down_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Down_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Down_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walk2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.0833,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Left_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Left_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Left_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walk3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.0833,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Up_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Up_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 8,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 8
-                      },
-                      {
-                        "x": 8,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bard 4_Up_3.png",
+                  "image": "Walk08",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -886,7 +491,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "Grass",
-      "texture": "assets\\Grass.png",
+      "texture": "assets\\Grass.png4",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -2361,6 +1966,15 @@
           },
           "parameters": [
             "NewText"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Bard4",
+            "Animation"
           ]
         }
       ]

@@ -402,7 +402,7 @@
       {
         "file": "assets/Stone.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Stone.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\Stone.png",
         "smoothed": false,
         "userAdded": true
@@ -668,6 +668,78 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/assets_Grass.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_Grass.png4.png\"}",
+        "name": "assets\\Grass.png4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk0.png\"}",
+        "name": "Walk0",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk02",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk03",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk04.png\"}",
+        "name": "Walk04",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk05.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk05.png\"}",
+        "name": "Walk05",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk06.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk06.png\"}",
+        "name": "Walk06",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk07.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk07",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk08.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk08",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
