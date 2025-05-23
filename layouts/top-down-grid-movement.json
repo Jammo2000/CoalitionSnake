@@ -29,7 +29,7 @@
           "name": "Bard4"
         },
         {
-          "name": "AllShapesAndColors"
+          "name": "Segment"
         }
       ]
     }
@@ -501,7 +501,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "AllShapesAndColors",
+      "name": "Segment",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1876,7 +1876,7 @@
         "objectName": "Stone"
       },
       {
-        "objectName": "AllShapesAndColors"
+        "objectName": "Segment"
       }
     ]
   },
@@ -2031,7 +2031,7 @@
               },
               "parameters": [
                 "Bard4",
-                "AllShapesAndColors",
+                "Segment",
                 "",
                 "",
                 "yes"
@@ -2050,7 +2050,7 @@
                   "parameters": [
                     "Bard4",
                     "SnakeHead",
-                    "AllShapesAndColors",
+                    "Segment",
                     ""
                   ]
                 }
@@ -2070,7 +2070,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "AllShapesAndColors",
+                    "Segment",
                     ""
                   ]
                 },
@@ -2099,7 +2099,7 @@
               },
               "parameters": [
                 "Bard4",
-                "AllShapesAndColors",
+                "Segment",
                 "10",
                 ""
               ]
@@ -2118,7 +2118,7 @@
                   "parameters": [
                     "Bard4",
                     "SnakeHead",
-                    "AllShapesAndColors",
+                    "Segment",
                     ""
                   ]
                 }
@@ -2131,7 +2131,7 @@
                   "parameters": [
                     "Bard4",
                     "SnakeHead",
-                    "AllShapesAndColors",
+                    "Segment",
                     ""
                   ]
                 },
@@ -2141,7 +2141,7 @@
                   },
                   "parameters": [
                     "",
-                    "AllShapesAndColors",
+                    "Segment",
                     ""
                   ]
                 },
@@ -2151,7 +2151,7 @@
                   },
                   "parameters": [
                     "",
-                    "AllShapesAndColors",
+                    "Segment",
                     "RandomWithStep(-64, 256, 16)",
                     "RandomWithStep(-64, 208, 16)",
                     ""
@@ -2162,7 +2162,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "AllShapesAndColors",
+                    "Segment",
                     "Animation",
                     "=",
                     "RandomInRange(0, 26)"
@@ -2289,7 +2289,7 @@
           },
           "parameters": [
             "",
-            "AllShapesAndColors",
+            "Segment",
             "224",
             "-16",
             ""
@@ -2300,7 +2300,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "AllShapesAndColors",
+            "Segment",
             "Animation",
             "=",
             "RandomInRange(0, 26)"
