@@ -724,6 +724,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -2124,10 +2125,6 @@
     {
       "name": "SnakeHead",
       "type": "ContinuousSnake::SnakeHead"
-    },
-    {
-      "name": "SnakeSegment",
-      "type": "ContinuousSnake::SnakeSegment"
     },
     {
       "name": "TopDownMovement",

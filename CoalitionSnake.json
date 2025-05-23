@@ -482,7 +482,7 @@
       {
         "file": "assets/Bard 6_Left_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bard 6_Left_1.png\",\"extension\":\".png\"}",
         "name": "assets\\Bard 6_Left_1.png",
         "smoothed": false,
         "userAdded": false
@@ -522,7 +522,7 @@
       {
         "file": "assets/EmptyRedCircle.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/EmptyRedCircle.png\"}",
         "name": "EmptyRedCircle",
         "smoothed": false,
         "userAdded": false
@@ -546,7 +546,7 @@
       {
         "file": "assets/EmptyBlueCircle.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/EmptyBlueCircle.png\"}",
         "name": "EmptyBlueCircle",
         "smoothed": false,
         "userAdded": false
@@ -570,7 +570,7 @@
       {
         "file": "assets/EmptyGreenSquare.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/EmptyGreenSquare.png\"}",
         "name": "EmptyGreenSquare",
         "smoothed": false,
         "userAdded": false
@@ -594,7 +594,7 @@
       {
         "file": "assets/EmptyBlueSquare.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/EmptyBlueSquare.png\"}",
         "name": "EmptyBlueSquare",
         "smoothed": false,
         "userAdded": false
@@ -618,7 +618,7 @@
       {
         "file": "assets/EmptyGreenStar.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/EmptyGreenStar.png\"}",
         "name": "EmptyGreenStar",
         "smoothed": false,
         "userAdded": false
