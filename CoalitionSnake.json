@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 228,
+    "build": 231,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -739,6 +739,36 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "Walk08",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Forest Night.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Forest Night.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gotta Keep On Movin.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Gotta Keep On Movin.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gold 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Gold 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
