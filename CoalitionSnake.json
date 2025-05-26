@@ -668,6 +668,20 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Gold 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "95aef1c1a58062c7bcb3d61bdaa14c87a5032d3332ec5c257b359cc1efb5ce87_Gold 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/95aef1c1a58062c7bcb3d61bdaa14c87a5032d3332ec5c257b359cc1efb5ce87_Gold 2.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
