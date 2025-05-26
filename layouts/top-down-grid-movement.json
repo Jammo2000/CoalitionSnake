@@ -2050,20 +2050,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\Gold 2.aac",
-                "",
-                "50",
-                "1"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2081,6 +2068,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\death2-340040.mp3",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Delete"
@@ -2149,6 +2148,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Gold 2.aac",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ContinuousSnake::SnakeHead::AddSegment"
@@ -2244,18 +2255,6 @@
                 "Animation",
                 "=",
                 "RandomInRange(0, 26)"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\death2-340040.mp3",
-                "",
-                "50",
-                "1"
               ]
             }
           ]
