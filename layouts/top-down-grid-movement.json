@@ -506,7 +506,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Segment",
+          "type": "ContinuousSnake::Segment"
+        }
+      ],
       "animations": [
         {
           "name": "SolidGreenCircle",
@@ -2137,35 +2142,31 @@
                 },
                 {
                   "type": {
-                    "value": "ObjectPickingTools::UnpickAction"
+                    "value": "AjoutObjConcern"
                   },
                   "parameters": [
                     "",
-                    "Segment",
-                    ""
+                    "Segment"
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Segment",
-                    "RandomWithStep(-64, 256, 16)",
-                    "RandomWithStep(-64, 208, 16)",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Segment",
-                    "Animation",
-                    "=",
-                    "RandomInRange(0, 26)"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Segment",
+                        "RandomWithStep(-64, 256, 16)",
+                        "RandomWithStep(-64, 208, 16)",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2180,8 +2181,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "AllShapesAndColors",
-                "AllShapesAndColors",
+                "Segment",
+                "Segment",
                 "",
                 "",
                 ""
@@ -2194,7 +2195,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "AllShapesAndColors",
+                "Segment",
                 ""
               ]
             },
@@ -2204,21 +2205,36 @@
               },
               "parameters": [
                 "",
-                "AllShapesAndColors",
+                "Segment",
                 "RandomWithStep(-64, 256, 16)",
                 "RandomWithStep(-64, 208, 16)",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                "value": "AjoutObjConcern"
               },
               "parameters": [
-                "AllShapesAndColors",
-                "Animation",
-                "=",
-                "RandomInRange(0, 26)"
+                "",
+                "Segment"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Segment",
+                "ContinuousSnake::Happiness(Segment, Bard4)",
+                ""
               ]
             }
           ]
@@ -2367,6 +2383,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Segment",
+      "type": "ContinuousSnake::Segment"
     },
     {
       "name": "SnakeHead",

@@ -16,7 +16,42 @@
   "dependencies": [],
   "globalVariables": [],
   "sceneVariables": [],
-  "eventsFunctions": [],
+  "eventsFunctions": [
+    {
+      "fullName": "",
+      "functionType": "Expression",
+      "name": "Happiness",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "",
+          "name": "Me",
+          "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "Friends",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
   "eventsBasedBehaviors": [
     {
       "description": "",
@@ -209,7 +244,14 @@
             {
               "description": "",
               "name": "Segment",
+              "supplementaryInformation": "Sprite",
               "type": "objectList"
+            },
+            {
+              "description": "",
+              "name": "segbehavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
             }
           ],
           "objectGroups": []
@@ -396,6 +438,294 @@
           "name": "Spacing"
         }
       ],
+      "sharedPropertyDescriptors": []
+    },
+    {
+      "description": "",
+      "fullName": "",
+      "name": "Segment",
+      "objectType": "Sprite",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const segment = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const behavior = segment.getBehavior(behaviorName);",
+                "",
+                "behavior._segment = {",
+                "    shading: [\"Solid\", \"Shaded\", \"Empty\"][Math.floor(Math.random()*3)],",
+                "    color:   [\"Blue\", \"Red\", \"Green\"][Math.floor(Math.random()*3)],",
+                "    shape: [\"Circle\", \"Square\", \"Star\"][Math.floor(Math.random()*3)]",
+                "};",
+                "",
+                "const props = behavior._segment;",
+                "segment.setAnimationName(props.shading + props.color + props.shape);",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Expression",
+          "name": "Happiness",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const meSegment = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const otherBehaviorName = eventsFunctionContext.getBehaviorName(\"OtherBehavior\");",
+                "",
+                "const snake = eventsFunctionContext.getObjects(\"Snake\");",
+                "const snakeBehaviorName = eventsFunctionContext.getBehaviorName(\"snakebehavior\");",
+                "const others = snake[0].getBehavior(snakeBehaviorName)._snake.segments;",
+                "console.log(others);",
+                "let happiness = 0;",
+                "const me = meSegment.getBehavior(behaviorName)._segment;",
+                "for(const otherSegment of others){",
+                "    const other = otherSegment.getBehavior(otherBehaviorName)._segment;",
+                "    if(me === other) continue;",
+                "    for(const key in me){",
+                "        happiness += (me[key] == other[key]) ? 1 : -0.5;",
+                "    }",
+                "}",
+                "console.log(happiness);",
+                "happiness/=others.length;",
+                "eventsFunctionContext.returnValue = happiness;"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
+            },
+            {
+              "description": "",
+              "name": "Snake",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "",
+              "name": "snakebehavior",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Condition",
+          "name": "IsUnhappy",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const meSegment = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const otherBehaviorName = eventsFunctionContext.getBehaviorName(\"OtherBehavior\");",
+                "",
+                "const others = eventsFunctionContext.getObjects(\"Others\");",
+                "let happiness = 0;",
+                "const me = meSegment.getBehavior(behaviorName)._segment;",
+                "for(const otherSegment of others){",
+                "    const other = otherSegment.getBehavior(otherBehaviorName)._segment;",
+                "    if(me === other) continue;",
+                "    for(const key in me){",
+                "        happiness += (me[key] == other[key]) ? 1 : -0.5;",
+                "    }",
+                "}",
+                "happiness/=others.length;",
+                "eventsFunctionContext.returnValue = happiness<eventsFunctionContext.getArgument(\"threshold\");"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
+            },
+            {
+              "description": "",
+              "name": "Others",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "",
+              "name": "OtherBehavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
+            },
+            {
+              "description": "how bad does it have to be? >0 is happier, <0 is sadder",
+              "name": "threshold",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "test",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const meSegment = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const otherBehaviorName = eventsFunctionContext.getBehaviorName(\"OtherBehavior\");",
+                "",
+                "const others = eventsFunctionContext.getObjects(\"Others\");",
+                "let happiness = 0;",
+                "const me = meSegment.getBehavior(behaviorName)._segment;",
+                "for(const otherSegment of others){",
+                "    const other = otherSegment.getBehavior(otherBehaviorName)._segment;",
+                "    if(me === other) continue;",
+                "    for(const key in me){",
+                "        happiness += (me[key] == other[key]) ? 1 : -0.5;",
+                "    }",
+                "}",
+                "console.log(JSON.stringify(me));",
+                "console.log(happiness);"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
+            },
+            {
+              "description": "",
+              "name": "Others",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "",
+              "name": "OtherBehavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "UpdateSprite",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "/**@type {gdjs.SpriteRuntimeObject} */",
+                "let segment = objects[0];",
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const behavior = object.getBehavior(behaviorName);",
+                "const props = behavior._segment;",
+                "",
+                "segment.setAnimationName(props.shading + props.color + props.shape);",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::Segment",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [],
       "sharedPropertyDescriptors": []
     }
   ],
