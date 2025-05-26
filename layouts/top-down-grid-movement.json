@@ -2137,6 +2137,7 @@
                     "Bard4",
                     "SnakeHead",
                     "Segment",
+                    "Segment",
                     ""
                   ]
                 },
@@ -2218,11 +2219,15 @@
           "conditions": [
             {
               "type": {
-                "value": "AjoutObjConcern"
+                "value": "ContinuousSnake::Segment::IsUnhappy"
               },
               "parameters": [
-                "",
-                "Segment"
+                "Segment",
+                "Segment",
+                "Segment",
+                "Segment",
+                "0",
+                ""
               ]
             }
           ],
@@ -2233,7 +2238,7 @@
               },
               "parameters": [
                 "Segment",
-                "ContinuousSnake::Happiness(Segment, Bard4)",
+                "50",
                 ""
               ]
             }
