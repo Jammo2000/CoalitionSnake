@@ -2055,7 +2055,20 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Gold 2.aac",
+                "",
+                "50",
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2252,6 +2265,18 @@
                 "Segment",
                 "50",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\death2-340040.mp3",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
