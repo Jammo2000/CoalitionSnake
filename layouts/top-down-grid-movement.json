@@ -2259,24 +2259,13 @@
           "actions": [
             {
               "type": {
-                "value": "Rotate"
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
                 "Segment",
-                "50",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\death2-340040.mp3",
-                "",
-                "50",
-                "1"
+                "Scale",
+                "=",
+                "1 + 0.1*sin(TimeFromStart()*7)"
               ]
             }
           ]
