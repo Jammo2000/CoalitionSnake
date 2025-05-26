@@ -1981,6 +1981,18 @@
             "Bard4",
             "Animation"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Gotta Keep On Movin.mp3",
+            "yes",
+            "25",
+            "1"
+          ]
         }
       ]
     },
