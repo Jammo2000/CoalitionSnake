@@ -25,10 +25,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": [
-            "",
-            ""
-          ],
+          "inlineCode": "",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -506,14 +503,18 @@
               "inlineCode": [
                 "const meSegment = objects[0];",
                 "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
-                "const otherBehaviorName = eventsFunctionContext.getBehaviorName(\"OtherBehavior\");",
                 "",
-                "const others = eventsFunctionContext.getObjects(\"Others\");",
+                "const snake = eventsFunctionContext.getObjects(\"Snake\")[0];",
+                "const snakeBName = eventsFunctionContext.getBehaviorName(\"snakehead\");",
+                "const others = snake.getBehavior(snakeBName)._snake.segments;",
+                "console.log(others.length);",
+                "",
                 "let happiness = 0;",
                 "const me = meSegment.getBehavior(behaviorName)._segment;",
                 "for(const otherSegment of others){",
-                "    const other = otherSegment.getBehavior(otherBehaviorName)._segment;",
+                "    const other = otherSegment.getBehavior(behaviorName)._segment;",
                 "    if(me === other) continue;",
+                "    console.log(JSON.stringify(other));",
                 "    for(const key in me){",
                 "        happiness += (me[key] == other[key]) ? 1 : -0.5;",
                 "    }",
@@ -541,14 +542,14 @@
             },
             {
               "description": "",
-              "name": "Others",
+              "name": "Snake",
               "supplementaryInformation": "Sprite",
               "type": "objectList"
             },
             {
               "description": "",
-              "name": "OtherBehavior",
-              "supplementaryInformation": "ContinuousSnake::Segment",
+              "name": "snakehead",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
               "type": "behavior"
             },
             {
