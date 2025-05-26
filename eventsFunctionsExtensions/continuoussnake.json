@@ -505,6 +505,7 @@
                 "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
                 "",
                 "const snake = eventsFunctionContext.getObjects(\"Snake\")[0];",
+                "if(!snake) return false;",
                 "const snakeBName = eventsFunctionContext.getBehaviorName(\"snakehead\");",
                 "const others = snake.getBehavior(snakeBName)._snake.segments;",
                 "console.log(others.length);",
