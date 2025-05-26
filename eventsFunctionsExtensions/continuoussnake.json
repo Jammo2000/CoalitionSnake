@@ -210,7 +210,7 @@
               ],
               "parameterObjects": "Object",
               "useStrict": true,
-              "eventsSheetExpanded": false
+              "eventsSheetExpanded": true
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -490,72 +490,6 @@
               "description": "Behavior",
               "name": "Behavior",
               "supplementaryInformation": "ContinuousSnake::Segment",
-              "type": "behavior"
-            }
-          ],
-          "objectGroups": []
-        },
-        {
-          "fullName": "",
-          "functionType": "Expression",
-          "name": "Happiness",
-          "sentence": "",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": [
-                "const meSegment = objects[0];",
-                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
-                "const otherBehaviorName = eventsFunctionContext.getBehaviorName(\"OtherBehavior\");",
-                "",
-                "const snake = eventsFunctionContext.getObjects(\"Snake\");",
-                "const snakeBehaviorName = eventsFunctionContext.getBehaviorName(\"snakebehavior\");",
-                "const others = snake[0].getBehavior(snakeBehaviorName)._snake.segments;",
-                "console.log(others);",
-                "let happiness = 0;",
-                "const me = meSegment.getBehavior(behaviorName)._segment;",
-                "for(const otherSegment of others){",
-                "    const other = otherSegment.getBehavior(otherBehaviorName)._segment;",
-                "    if(me === other) continue;",
-                "    for(const key in me){",
-                "        happiness += (me[key] == other[key]) ? 1 : -0.5;",
-                "    }",
-                "}",
-                "console.log(happiness);",
-                "happiness/=others.length;",
-                "eventsFunctionContext.returnValue = happiness;"
-              ],
-              "parameterObjects": "Object",
-              "useStrict": true,
-              "eventsSheetExpanded": true
-            }
-          ],
-          "expressionType": {
-            "type": "expression"
-          },
-          "parameters": [
-            {
-              "description": "Object",
-              "name": "Object",
-              "supplementaryInformation": "Sprite",
-              "type": "object"
-            },
-            {
-              "description": "Behavior",
-              "name": "Behavior",
-              "supplementaryInformation": "ContinuousSnake::Segment",
-              "type": "behavior"
-            },
-            {
-              "description": "",
-              "name": "Snake",
-              "supplementaryInformation": "Sprite",
-              "type": "objectList"
-            },
-            {
-              "description": "",
-              "name": "snakebehavior",
-              "supplementaryInformation": "ContinuousSnake::SnakeHead",
               "type": "behavior"
             }
           ],
