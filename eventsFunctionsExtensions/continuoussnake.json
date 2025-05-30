@@ -513,10 +513,11 @@
           "objectGroups": []
         },
         {
+          "description": "The happiness of _PARAM0_ in the snake _PARAM2_",
           "fullName": "",
-          "functionType": "Condition",
-          "name": "IsUnhappy",
-          "sentence": "",
+          "functionType": "ExpressionAndCondition",
+          "name": "happiness",
+          "sentence": "check the happiness",
           "events": [
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -540,13 +541,16 @@
                 "    }",
                 "}",
                 "happiness/=others.length;",
-                "eventsFunctionContext.returnValue = happiness<eventsFunctionContext.getArgument(\"threshold\");"
+                "eventsFunctionContext.returnValue = happiness;"
               ],
               "parameterObjects": "Object",
               "useStrict": true,
               "eventsSheetExpanded": true
             }
           ],
+          "expressionType": {
+            "type": "expression"
+          },
           "parameters": [
             {
               "description": "Object",
@@ -570,70 +574,6 @@
               "description": "",
               "name": "snakehead",
               "supplementaryInformation": "ContinuousSnake::SnakeHead",
-              "type": "behavior"
-            },
-            {
-              "description": "how bad does it have to be? >0 is happier, <0 is sadder",
-              "name": "threshold",
-              "type": "expression"
-            }
-          ],
-          "objectGroups": []
-        },
-        {
-          "fullName": "",
-          "functionType": "Action",
-          "name": "test",
-          "sentence": "",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": [
-                "const meSegment = objects[0];",
-                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
-                "const otherBehaviorName = eventsFunctionContext.getBehaviorName(\"OtherBehavior\");",
-                "",
-                "const others = eventsFunctionContext.getObjects(\"Others\");",
-                "let happiness = 0;",
-                "const me = meSegment.getBehavior(behaviorName)._segment;",
-                "for(const otherSegment of others){",
-                "    const other = otherSegment.getBehavior(otherBehaviorName)._segment;",
-                "    if(me === other) continue;",
-                "    for(const key in me){",
-                "        happiness += (me[key] == other[key]) ? 1 : -0.5;",
-                "    }",
-                "}",
-                "console.log(JSON.stringify(me));",
-                "console.log(happiness);"
-              ],
-              "parameterObjects": "Object",
-              "useStrict": true,
-              "eventsSheetExpanded": true
-            }
-          ],
-          "parameters": [
-            {
-              "description": "Object",
-              "name": "Object",
-              "supplementaryInformation": "Sprite",
-              "type": "object"
-            },
-            {
-              "description": "Behavior",
-              "name": "Behavior",
-              "supplementaryInformation": "ContinuousSnake::Segment",
-              "type": "behavior"
-            },
-            {
-              "description": "",
-              "name": "Others",
-              "supplementaryInformation": "Sprite",
-              "type": "objectList"
-            },
-            {
-              "description": "",
-              "name": "OtherBehavior",
-              "supplementaryInformation": "ContinuousSnake::Segment",
               "type": "behavior"
             }
           ],

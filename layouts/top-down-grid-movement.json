@@ -2392,14 +2392,15 @@
         },
         {
           "type": {
-            "value": "ContinuousSnake::Segment::IsUnhappy"
+            "value": "ContinuousSnake::Segment::happiness"
           },
           "parameters": [
             "Segment",
             "Segment",
+            "<=",
+            "-1",
             "Bard4",
             "SnakeHead",
-            "0",
             ""
           ]
         }
