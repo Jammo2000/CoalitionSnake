@@ -16,39 +16,7 @@
   "dependencies": [],
   "globalVariables": [],
   "sceneVariables": [],
-  "eventsFunctions": [
-    {
-      "fullName": "",
-      "functionType": "Expression",
-      "name": "Happiness",
-      "sentence": "",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "",
-          "parameterObjects": "",
-          "useStrict": true,
-          "eventsSheetExpanded": false
-        }
-      ],
-      "expressionType": {
-        "type": "expression"
-      },
-      "parameters": [
-        {
-          "description": "",
-          "name": "Me",
-          "type": "objectList"
-        },
-        {
-          "description": "",
-          "name": "Friends",
-          "type": "objectList"
-        }
-      ],
-      "objectGroups": []
-    }
-  ],
+  "eventsFunctions": [],
   "eventsBasedBehaviors": [
     {
       "description": "",
@@ -199,9 +167,10 @@
               "inlineCode": [
                 "const object = objects[0];",
                 "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const behavior = object.getBehavior(behaviorName);",
                 "const data = object.getBehavior(behaviorName)._snake;",
                 "const segs = eventsFunctionContext.getObjects(\"Segment\");",
-                "for(let segment of segs){",
+                "for (let segment of segs) {",
                 "    data.segments.push(segment);",
                 "}"
               ],
@@ -249,6 +218,55 @@
               "name": "segbehavior",
               "supplementaryInformation": "ContinuousSnake::Segment",
               "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Condition",
+          "name": "IsCollidingWithTail",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const object = objects[0];",
+                "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "const behavior = object.getBehavior(behaviorName);",
+                "",
+                "let { segments } = behavior._snake;",
+                " /** @type {gdjs.SpriteRuntimeObject} */",
+                "const target = eventsFunctionContext.getObjects(\"target\")[0];",
+                "for(let seg of segments){",
+                "    if(seg!==target && target.getDistanceToObject(seg) < 10){",
+                "        return true;",
+                "    }",
+                "}",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ContinuousSnake::SnakeHead",
+              "type": "behavior"
+            },
+            {
+              "description": "",
+              "name": "target",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
             }
           ],
           "objectGroups": []
@@ -307,7 +325,8 @@
                 "",
                 "let { segments } = behavior._snake;",
                 "const segment = eventsFunctionContext.getObjects(\"Segment\")[0];",
-                "eventsFunctionContext.returnValue = segments.includes(segment);"
+                "eventsFunctionContext.returnValue = segments.includes(segment);",
+                ""
               ],
               "parameterObjects": "Object",
               "useStrict": true,
@@ -329,6 +348,7 @@
             {
               "description": "",
               "name": "Segment",
+              "supplementaryInformation": "Sprite",
               "type": "objectList"
             }
           ],
@@ -515,7 +535,6 @@
                 "for(const otherSegment of others){",
                 "    const other = otherSegment.getBehavior(behaviorName)._segment;",
                 "    if(me === other) continue;",
-                "    console.log(JSON.stringify(other));",
                 "    for(const key in me){",
                 "        happiness += (me[key] == other[key]) ? 1 : -0.5;",
                 "    }",

@@ -1993,6 +1993,42 @@
             "25",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"newSegment\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Segment",
+            "224",
+            "-16",
+            ""
+          ]
         }
       ]
     },
@@ -2027,8 +2063,76 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"newSegment\"",
+            ">=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Segment",
+            "RandomWithStep(-64, 256, 16)",
+            "RandomWithStep(-64, 208, 16)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"newSegment\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "infiniteLoopWarning": true,
+          "type": "BuiltinCommonInstructions::While",
+          "whileConditions": [
+            {
+              "type": {
+                "value": "ContinuousSnake::SnakeHead::IsCollidingWithTail"
+              },
+              "parameters": [
+                "Bard4",
+                "SnakeHead",
+                "Segment",
+                ""
+              ]
+            }
+          ],
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Segment",
+                "=",
+                "RandomWithStep(-64, 256, 16)",
+                "=",
+                "RandomWithStep(-64, 208, 16)"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -2179,29 +2283,65 @@
                 },
                 {
                   "type": {
-                    "value": "AjoutObjConcern"
+                    "value": "ObjectPickingTools::UnpickAction"
                   },
                   "parameters": [
                     "",
-                    "Segment"
+                    "Segment",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Segment",
+                    "RandomWithStep(-64, 256, 16)",
+                    "RandomWithStep(-64, 208, 16)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"newSegment\""
                   ]
                 }
               ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "value": "ContinuousSnake::SnakeHead::IsCollidingWithTail"
+                      },
+                      "parameters": [
+                        "Bard4",
+                        "SnakeHead",
+                        "Segment",
+                        ""
+                      ]
+                    }
+                  ],
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "MettreXY"
                       },
                       "parameters": [
-                        "",
                         "Segment",
+                        "=",
                         "RandomWithStep(-64, 256, 16)",
-                        "RandomWithStep(-64, 208, 16)",
-                        ""
+                        "=",
+                        "RandomWithStep(-64, 208, 16)"
                       ]
                     }
                   ]
@@ -2209,82 +2349,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Segment",
-                "Segment",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Segment",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Segment",
-                "RandomWithStep(-64, 256, 16)",
-                "RandomWithStep(-64, 208, 16)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ContinuousSnake::Segment::IsUnhappy"
-              },
-              "parameters": [
-                "Segment",
-                "Segment",
-                "Bard4",
-                "SnakeHead",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "Segment",
-                "Scale",
-                "=",
-                "1 + 0.1*sin(TimeFromStart()*7)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2314,6 +2378,48 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ContinuousSnake::SnakeHead::SnakeContainsSegment"
+          },
+          "parameters": [
+            "Bard4",
+            "SnakeHead",
+            "Segment",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ContinuousSnake::Segment::IsUnhappy"
+          },
+          "parameters": [
+            "Segment",
+            "Segment",
+            "Bard4",
+            "SnakeHead",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Segment",
+            "Scale",
+            "=",
+            "1 + 0.1*sin(TimeFromStart()*7)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
@@ -2330,41 +2436,8 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Segment",
-            "224",
-            "-16",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Segment",
-            "Animation",
-            "=",
-            "RandomInRange(0, 26)"
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
