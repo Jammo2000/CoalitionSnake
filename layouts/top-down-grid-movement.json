@@ -554,8 +554,40 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.16670000553131104,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidGreenCircle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Bard 6_Right_1.png",
@@ -597,10 +629,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedGreenCircle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\GreenStripeCircle4.png",
@@ -642,9 +706,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyGreenCircle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Bard 6_Left_1.png",
@@ -686,10 +783,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidRedCircle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\NewSprite2.png",
@@ -731,10 +860,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedRedCircle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ShadedRedCircle",
@@ -776,10 +937,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyRedCircle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "EmptyRedCircle",
@@ -821,10 +1014,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidBlueCircle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "SolidBlueCircle",
@@ -866,10 +1091,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedBlueCircle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ShadedBlueCircle",
@@ -911,13 +1168,45 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "EmptyBlueCircle",
+                  "image": "EmptyBlueCircle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyBlueCircle3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -956,10 +1245,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidGreenSquare2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "SolidGreenSquare",
@@ -1001,10 +1322,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedGreenSquare2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ShadedGreenSquare",
@@ -1046,10 +1399,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyGreenSquare2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "EmptyGreenSquare",
@@ -1091,10 +1476,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidRedSquare",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Bard 6_Up_1.png",
@@ -1136,10 +1553,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedRedSquare",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\RedStripeSquare.png",
@@ -1181,10 +1630,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyRedSqaure",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\RedEmptySquare.png",
@@ -1226,10 +1707,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidBlueSquare2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "SolidBlueSquare",
@@ -1271,10 +1784,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedBlueSquare2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ShadedBlueSquare",
@@ -1316,10 +1861,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyBlueSquare2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "EmptyBlueSquare",
@@ -1361,13 +1938,45 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SolidGreenStar",
+                  "image": "SolidGreenStar7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidGreenStar6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1406,10 +2015,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedGreenStar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ShadedGreenStar",
@@ -1451,10 +2092,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyGreenStar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "EmptyGreenStar",
@@ -1496,10 +2169,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidRedStar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "SolidRedStar",
@@ -1541,10 +2246,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedRedStar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ShadedRedStar",
@@ -1586,10 +2323,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyRedStar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "EmptyRedStar",
@@ -1631,10 +2400,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SolidBlueStar",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\BlueSolidStar.png",
@@ -1676,13 +2477,45 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\BlueSripeStar.png",
+                  "image": "ShadedBlueStar",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ShadedBlueStar2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1721,10 +2554,42 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EmptyBlueStar",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.5,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 9,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\BlueEmptyStar.png",
@@ -1896,6 +2761,7 @@
       "assetStoreId": "805020d83a9f62501db39c113f2b92bb91f651bb9e462ae5f83d1412c35d3d8a",
       "name": "WoodYellowBar",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -1981,6 +2847,7 @@
       "assetStoreId": "d071c8baaa781a445ba1c3742b300714155d61cfc7423a04ae29c282014dcee7",
       "name": "ScoreCounter",
       "type": "ScoreCounter::ScoreCounter",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -2074,6 +2941,7 @@
       "assetStoreId": "",
       "name": "NewResourceBar",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -2151,6 +3019,7 @@
       "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
       "name": "RestartButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -2408,7 +3277,7 @@
           },
           "parameters": [
             "",
-            "assets\\Gotta Keep On Movin.mp3",
+            "assets\\best-game-console-301284.mp3",
             "yes",
             "25",
             "1"
@@ -2588,7 +3457,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\death2-340040.mp3",
+                    "assets\\8-bit-game-over-sound-effect-331435.mp3",
                     "",
                     "50",
                     "1"
