@@ -526,6 +526,7 @@
       "name": "WoodYellowBar",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variant": "",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -611,6 +612,7 @@
       "assetStoreId": "d071c8baaa781a445ba1c3742b300714155d61cfc7423a04ae29c282014dcee7",
       "name": "ScoreCounter",
       "type": "ScoreCounter::ScoreCounter",
+      "variant": "",
       "variant": "",
       "variables": [],
       "effects": [],
@@ -1035,7 +1037,7 @@
           },
           "parameters": [
             "",
-            "assets\\Gotta Keep On Movin.mp3",
+            "assets\\best-game-console-301284.mp3",
             "yes",
             "25",
             "1"
@@ -1215,7 +1217,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\death2-340040.mp3",
+                    "assets\\8-bit-game-over-sound-effect-331435.mp3",
                     "",
                     "50",
                     "1"
