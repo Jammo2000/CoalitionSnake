@@ -2755,6 +2755,264 @@
       "isInnerAreaFollowingParentSize": true,
       "isUsingLegacyInstancesRenderer": false,
       "name": "ScoreCounter",
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "367a58ff120bef6532ea832ff97bb32fdbca604c7f08ab43a54fad9f667b9156",
+          "name": "Icon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 4
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 4,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 4,
+              "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ShakeObject_PositionAngleScale",
+              "type": "ScoreCounter::ShakeObject_PositionAngleScale",
+              "Scale": "Scale",
+              "Property": 7.081819056384756e-306
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Star Gold.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 23,
+                        "y": 23
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "Counter",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "leftEdgeAnchor": 1,
+              "bottomEdgeAnchor": 4,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 4,
+              "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "RollingCounter",
+              "type": "ScoreCounter::RollingCounter",
+              "Text": "Text",
+              "Prefix": "",
+              "Suffix": "",
+              "Duration": 1,
+              "Increment": 1,
+              "CounterValue": 0,
+              "DisplayedValue": 0,
+              "Speed": 0
+            },
+            {
+              "name": "ShakeObject_PositionAngleScale",
+              "type": "ScoreCounter::ShakeObject_PositionAngleScale",
+              "Scale": "Scale",
+              "Property": 7.02010802359022e-306
+            }
+          ],
+          "string": "0",
+          "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 231,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 30,
+            "color": "255;231;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 30,
+          "height": 64,
+          "leftMargin": 30,
+          "name": "Background",
+          "rightMargin": 30,
+          "texture": "Group 12.png",
+          "tiled": true,
+          "topMargin": 30,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 2,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 1,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Counter"
+          },
+          {
+            "objectName": "Icon"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [
+        {
+          "angle": -7,
+          "customSize": true,
+          "depth": 4,
+          "height": 71,
+          "layer": "",
+          "name": "Counter",
+          "persistentUuid": "76dfa03a-0454-4c0e-8bf0-66ec853de478",
+          "width": 123,
+          "x": 26,
+          "y": 45,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Icon",
+          "persistentUuid": "33104734-7e97-4243-a199-3470acd804d6",
+          "width": 53,
+          "x": 30,
+          "y": 31,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3074,264 +3332,7 @@
           "name": "Score"
         }
       ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "367a58ff120bef6532ea832ff97bb32fdbca604c7f08ab43a54fad9f667b9156",
-          "name": "Icon",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Outline",
-              "name": "Effect",
-              "doubleParameters": {
-                "padding": 0,
-                "thickness": 4
-              },
-              "stringParameters": {
-                "color": "0;0;0"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "isFolded": true,
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 4,
-              "leftEdgeAnchor": 1,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 0,
-              "topEdgeAnchor": 4,
-              "useLegacyBottomAndRightAnchors": false
-            },
-            {
-              "name": "ShakeObject_PositionAngleScale",
-              "type": "ScoreCounter::ShakeObject_PositionAngleScale",
-              "Scale": "Scale",
-              "Property": 7.081819056384756e-306
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Star Gold.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 23,
-                        "y": 23
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": true,
-          "name": "Counter",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "isFolded": true,
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "leftEdgeAnchor": 1,
-              "bottomEdgeAnchor": 4,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 4,
-              "topEdgeAnchor": 4,
-              "useLegacyBottomAndRightAnchors": false
-            },
-            {
-              "name": "RollingCounter",
-              "type": "ScoreCounter::RollingCounter",
-              "Text": "Text",
-              "Prefix": "",
-              "Suffix": "",
-              "Duration": 1,
-              "Increment": 1,
-              "CounterValue": 0,
-              "DisplayedValue": 0,
-              "Speed": 0
-            },
-            {
-              "name": "ShakeObject_PositionAngleScale",
-              "type": "ScoreCounter::ShakeObject_PositionAngleScale",
-              "Scale": "Scale",
-              "Property": 7.02010802359022e-306
-            }
-          ],
-          "string": "0",
-          "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
-          "textAlignment": "left",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 231,
-            "r": 255
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": true,
-            "isShadowEnabled": false,
-            "italic": true,
-            "outlineColor": "0;0;0",
-            "outlineThickness": 10,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "0",
-            "font": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "center",
-            "characterSize": 30,
-            "color": "255;231;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bottomMargin": 30,
-          "height": 64,
-          "leftMargin": 30,
-          "name": "Background",
-          "rightMargin": 30,
-          "texture": "Group 12.png",
-          "tiled": true,
-          "topMargin": 30,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 2,
-              "leftEdgeAnchor": 1,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 2,
-              "topEdgeAnchor": 1,
-              "useLegacyBottomAndRightAnchors": false
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Counter"
-          },
-          {
-            "objectName": "Icon"
-          },
-          {
-            "objectName": "Background"
-          }
-        ]
-      },
-      "objectsGroups": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "instances": [
-        {
-          "angle": -7,
-          "customSize": true,
-          "depth": 4,
-          "height": 71,
-          "layer": "",
-          "name": "Counter",
-          "persistentUuid": "76dfa03a-0454-4c0e-8bf0-66ec853de478",
-          "width": 123,
-          "x": 26,
-          "y": 45,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 53,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Icon",
-          "persistentUuid": "33104734-7e97-4243-a199-3470acd804d6",
-          "width": 53,
-          "x": 30,
-          "y": 31,
-          "zOrder": 3,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ]
+      "variants": []
     }
   ]
 }

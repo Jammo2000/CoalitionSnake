@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 228,
+    "build": 231,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1348,7 +1348,17 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Noise",
+          "name": "Effect",
+          "doubleParameters": {
+            "noise": 0.05
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Segment",
@@ -3587,6 +3597,7 @@
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "OnScreenControlsButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -3674,7 +3685,17 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Noise",
+          "name": "Effect",
+          "doubleParameters": {
+            "noise": 0.05
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
