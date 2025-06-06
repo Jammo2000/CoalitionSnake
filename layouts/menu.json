@@ -28,14 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 41,
+      "height": 18,
       "keepRatio": true,
       "layer": "",
       "name": "NewText",
       "persistentUuid": "6daa80ec-5bbf-43c2-b1e2-2d0d946ad132",
       "width": 199,
       "x": 1,
-      "y": 21,
+      "y": 132,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,8 +67,8 @@
       "name": "OnScreenControlsButton",
       "persistentUuid": "d4221241-05d9-465a-8108-3116e7e2d917",
       "width": 90,
-      "x": 57,
-      "y": 98,
+      "x": 53,
+      "y": 81,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -83,8 +83,8 @@
       "name": "InertSegment",
       "persistentUuid": "9eacfbad-6a83-4234-b455-09afd398e86b",
       "width": 0,
-      "x": 37,
-      "y": 60,
+      "x": 35,
+      "y": 41,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,8 +99,8 @@
       "name": "InertSegment",
       "persistentUuid": "82b79ea6-9ffc-4121-8225-e98d9be7e323",
       "width": 0,
-      "x": 92,
-      "y": 60,
+      "x": 90,
+      "y": 41,
       "zOrder": 5,
       "numberProperties": [
         {
@@ -120,8 +120,8 @@
       "name": "InertSegment",
       "persistentUuid": "9201ebd2-9ee8-4687-bd46-d82324ee4004",
       "width": 0,
-      "x": 147,
-      "y": 60,
+      "x": 148,
+      "y": 40,
       "zOrder": 6,
       "numberProperties": [
         {
@@ -193,6 +193,48 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "James Bankhead  Anthony  Navarro  Christopher Nesheim\nSounds by Phase Shift & Edimar Ramide",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 7,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "James Bankhead  Anthony  Navarro  Christopher Nesheim\nSounds by Phase Shift & Edimar Ramide",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 7,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -203,6 +245,9 @@
       },
       {
         "objectName": "NewBBText"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
