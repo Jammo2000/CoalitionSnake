@@ -1348,17 +1348,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "Noise",
-          "name": "Effect",
-          "doubleParameters": {
-            "noise": 0.05
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": [
         {
           "name": "Segment",

@@ -527,7 +527,7 @@
                 "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
                 "",
                 "const snake = eventsFunctionContext.getObjects(\"Snake\")[0];",
-                "if(!snake) return false;",
+                "if(!snake) {eventsFunctionContext.returnValue = 0; return}",
                 "const snakeBName = eventsFunctionContext.getBehaviorName(\"snakehead\");",
                 "const others = snake.getBehavior(snakeBName)._snake.segments;",
                 "",
@@ -541,7 +541,13 @@
                 "    }",
                 "}",
                 "happiness/=others.length;",
-                "eventsFunctionContext.returnValue = happiness;"
+                "eventsFunctionContext.returnValue = happiness;",
+                "if(happiness < 0){",
+                "meSegment.setPosition(",
+                "    meSegment.getX() + ((Math.random() - 0.5 )*happiness),",
+                "    meSegment.getY() + ((Math.random() - 0.5 )*happiness)",
+                ")",
+                "}"
               ],
               "parameterObjects": "Object",
               "useStrict": true,
@@ -595,7 +601,6 @@
                 "const behavior = object.getBehavior(behaviorName);",
                 "const props = behavior._segment;",
                 "",
-                "segment.setAnimationName(props.shading + props.color + props.shape);",
                 ""
               ],
               "parameterObjects": "Object",
