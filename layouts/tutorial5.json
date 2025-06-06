@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Tutorial2",
-  "name": "Tutorial2",
+  "mangledName": "Tutorial5",
+  "name": "Tutorial5",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.350884828837645,
+    "zoomFactor": 2.350884828837646,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,17 +26,37 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 22,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "OnScreenControlsButton",
-      "persistentUuid": "d324ea73-5fb5-4fc4-aadb-d7d54e43a060",
-      "width": 71,
-      "x": 115,
-      "y": 100,
-      "zOrder": 3,
+      "name": "InertSegment",
+      "persistentUuid": "cc64cc20-4664-405d-ae41-8b5448241e06",
+      "width": 0,
+      "x": 91,
+      "y": 36,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 12
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "8dc81251-6d5c-438f-bc74-8cffca47e4d5",
+      "width": 0,
+      "x": -16,
+      "y": 12,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -48,11 +68,28 @@
       "keepRatio": true,
       "layer": "",
       "name": "NewText2",
-      "persistentUuid": "8b699fc7-02d7-44fa-89ca-6c2e580c2d70",
+      "persistentUuid": "a6b8871e-dfc1-40f2-81d2-2eee886b5ba1",
       "width": 0,
-      "x": 61,
-      "y": 1,
-      "zOrder": 6,
+      "x": 64,
+      "y": 58,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 26,
+      "keepRatio": true,
+      "layer": "",
+      "name": "OnScreenControlsButton",
+      "persistentUuid": "0aa1dc43-3181-40c4-8ce1-0692ce535d56",
+      "width": 72,
+      "x": 123,
+      "y": 119,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -64,27 +101,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "NewText3",
-      "persistentUuid": "41322044-957a-4e79-8a2f-5176282139fd",
+      "persistentUuid": "c4c49011-39c8-4db6-aecb-209472d6e0ab",
       "width": 0,
-      "x": 21,
-      "y": 39,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewText4",
-      "persistentUuid": "981b959a-f583-48ba-89c4-a0762ebba86c",
-      "width": 0,
-      "x": 10,
-      "y": 82,
-      "zOrder": 8,
+      "x": -13,
+      "y": 75,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -96,31 +117,15 @@
       "keepRatio": true,
       "layer": "",
       "name": "InertSegment",
-      "persistentUuid": "f03aad1a-4d8b-4433-893a-0f7fdaa5d155",
+      "persistentUuid": "fa87ed94-be0f-45e0-9f81-8f58de2a6fb8",
       "width": 0,
-      "x": 88,
-      "y": 18,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "InertSegment",
-      "persistentUuid": "7319a382-cfe3-4e85-9e4a-99c55a098f67",
-      "width": 0,
-      "x": 34,
-      "y": 61,
-      "zOrder": 10,
+      "x": 92,
+      "y": 95,
+      "zOrder": 6,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 4
+          "value": 22
         }
       ],
       "stringProperties": [],
@@ -133,11 +138,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "InertSegment",
-      "persistentUuid": "5b4c9a30-0434-4c1a-a94f-01b142d53e7d",
+      "persistentUuid": "b6bfbcd1-b6d2-4052-a562-8b35878005ef",
       "width": 0,
-      "x": 88,
-      "y": 59,
-      "zOrder": 11,
+      "x": 126,
+      "y": 95,
+      "zOrder": 7,
       "numberProperties": [
         {
           "name": "animation",
@@ -154,15 +159,15 @@
       "keepRatio": true,
       "layer": "",
       "name": "InertSegment",
-      "persistentUuid": "66a9abb1-884a-4a77-86ed-6549ffd923d3",
+      "persistentUuid": "ae6c8faf-fe22-4b20-abc5-fdd0f260db39",
       "width": 0,
-      "x": 142,
-      "y": 60,
-      "zOrder": 12,
+      "x": 57,
+      "y": 95,
+      "zOrder": 8,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 20
+          "value": 3
         }
       ],
       "stringProperties": [],
@@ -172,37 +177,18 @@
   "objects": [
     {
       "assetStoreId": "",
-      "name": "NewBitmapText",
-      "type": "BitmapText::BitmapTextObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "These two will be friends. Their only difference is their shading.",
-        "opacity": 255,
-        "scale": 1,
-        "fontSize": 20,
-        "tint": "255;255;255",
-        "bitmapFontResourceName": "",
-        "textureAtlasResourceName": "",
-        "align": "left",
-        "verticalTextAlignment": "top"
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText2",
+      "name": "NewText",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "This is Melvin.",
+      "string": "Uphappy segments will decrease your score.",
       "font": "",
-      "textAlignment": "center",
+      "textAlignment": "left",
       "characterSize": 12,
       "color": {
         "b": 0,
@@ -223,9 +209,51 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "This is Melvin.",
+        "text": "Uphappy segments will decrease your score.",
         "font": "",
-        "textAlignment": "center",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 12,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pay attention!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 12,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pay attention!",
+        "font": "",
+        "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
@@ -242,9 +270,9 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Melvin is OK with these people",
+      "string": "Make them happy by collecting alike allies.",
       "font": "",
-      "textAlignment": "center",
+      "textAlignment": "left",
       "characterSize": 12,
       "color": {
         "b": 0,
@@ -265,51 +293,9 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Melvin is OK with these people",
+        "text": "Make them happy by collecting alike allies.",
         "font": "",
-        "textAlignment": "center",
-        "verticalTextAlignment": "top",
-        "characterSize": 12,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText4",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "They disagree,\nbut still have\nat least\none similar trait.",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 12,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "They disagree,\nbut still have\nat least\none similar trait.",
-        "font": "",
-        "textAlignment": "center",
+        "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
@@ -320,16 +306,13 @@
     "folderName": "__ROOT",
     "children": [
       {
+        "objectName": "NewText"
+      },
+      {
         "objectName": "NewText2"
       },
       {
         "objectName": "NewText3"
-      },
-      {
-        "objectName": "NewText4"
-      },
-      {
-        "objectName": "NewBitmapText"
       }
     ]
   },
@@ -450,8 +433,37 @@
           },
           "parameters": [
             "",
-            "\"Tutorial3\"",
+            "\"Top-down grid movement\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "InertSegment",
+            "Animation",
+            "=",
+            "12"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "InertSegment",
+            "Scale",
+            "=",
+            "1 + 0.1*sin(TimeFromStart()*7)"
           ]
         }
       ]

@@ -66,7 +66,7 @@
       "name": "NewText3",
       "persistentUuid": "41322044-957a-4e79-8a2f-5176282139fd",
       "width": 0,
-      "x": 3,
+      "x": -27,
       "y": 36,
       "zOrder": 7,
       "numberProperties": [],
@@ -98,7 +98,7 @@
       "name": "InertSegment",
       "persistentUuid": "8dab4b5e-239d-4520-abeb-9e03820e5993",
       "width": 0,
-      "x": 60,
+      "x": 62,
       "y": 100,
       "zOrder": 11,
       "numberProperties": [
@@ -120,7 +120,7 @@
       "name": "InertSegment",
       "persistentUuid": "b55bbc33-01b1-407b-a139-fc3d754e6812",
       "width": 16,
-      "x": 77,
+      "x": 80,
       "y": 100,
       "zOrder": 12,
       "numberProperties": [
@@ -141,7 +141,7 @@
       "name": "NewSprite",
       "persistentUuid": "bb6ee2b8-8603-417e-9a94-cdff5a5dfb97",
       "width": 0,
-      "x": 131,
+      "x": 135,
       "y": 99,
       "zOrder": 13,
       "numberProperties": [
@@ -162,7 +162,7 @@
       "name": "InertSegment",
       "persistentUuid": "b1dab7c7-85c5-4a89-a8a9-57856ad7938d",
       "width": 0,
-      "x": 95,
+      "x": 98,
       "y": 100,
       "zOrder": 15,
       "numberProperties": [],
@@ -194,8 +194,8 @@
       "name": "NewText5",
       "persistentUuid": "d96f4cea-0f39-4921-bf00-42a3ce043126",
       "width": 0,
-      "x": 18,
-      "y": 84,
+      "x": -37,
+      "y": 85,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -289,7 +289,7 @@
       "name": "InertSegment",
       "persistentUuid": "fe311967-7ab4-496d-8486-e0ba689f6dd3",
       "width": 0,
-      "x": 42,
+      "x": 45,
       "y": 100,
       "zOrder": 10,
       "numberProperties": [
@@ -310,7 +310,7 @@
       "name": "InertSegment",
       "persistentUuid": "acbc9939-3c0b-494e-a277-8155d8278772",
       "width": 0,
-      "x": 113,
+      "x": 117,
       "y": 100,
       "zOrder": 15,
       "numberProperties": [
@@ -331,7 +331,7 @@
       "name": "InertSegment",
       "persistentUuid": "6bf2199b-d006-46e6-bdb5-c88364f0ed07",
       "width": 0,
-      "x": 25,
+      "x": 27,
       "y": 101,
       "zOrder": 15,
       "numberProperties": [
@@ -417,7 +417,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You need to get your allies together.",
+      "string": "You need to collect as many allies as possible.",
       "font": "",
       "textAlignment": "center",
       "characterSize": 12,
@@ -440,7 +440,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You need to get your allies together.",
+        "text": "You need to collect as many allies as possible.",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -609,7 +609,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Everyone wants a few friends",
+      "string": "Careful! Make sure you keep your segments happy.",
       "font": "",
       "textAlignment": "center",
       "characterSize": 12,
@@ -632,11 +632,53 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Everyone wants a few friends",
+        "text": "Careful! Make sure you keep your segments happy.",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 12,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
         "color": "0;0;0"
       }
     }
@@ -661,6 +703,9 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -781,7 +826,7 @@
           },
           "parameters": [
             "",
-            "\"Top-down grid movement\"",
+            "\"Tutorial5\"",
             ""
           ]
         }
@@ -812,18 +857,6 @@
             "Scale",
             "=",
             "1 + 0.1*sin(TimeFromStart()*7)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "InertSegment",
-            "=",
-            "85",
-            "=",
-            "108"
           ]
         }
       ]
